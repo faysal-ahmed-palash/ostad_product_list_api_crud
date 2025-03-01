@@ -1,7 +1,8 @@
 import 'dart:convert';
-import '../utils/urls.dart';
 import 'package:http/http.dart' as http;
-import '../model/product.dart';
+import '../../data/models/product.dart';
+import '../../core/utils/urls.dart';
+
 
 class ProductController {
   List<Data> products = [];

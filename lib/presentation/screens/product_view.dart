@@ -1,5 +1,5 @@
 import 'package:flutter/material.dart';
-import '../model/product.dart';
+import '../../data/models/product.dart';
 
 class ProductView extends StatelessWidget {
   final Data product; // Receive product data

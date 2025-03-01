@@ -1,6 +1,6 @@
 import 'package:flutter/material.dart';
-import 'widget/product_card.dart';
-import 'controller/ProductController.dart';
+import '../widget/product_card.dart';
+import '../../state_management/controllers/ProductController.dart';
 
 class ProductList extends StatefulWidget {
   const ProductList({super.key});
